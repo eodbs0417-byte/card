@@ -3,6 +3,8 @@ function saveContact(name, phone, email = "", company = "한국도로공사서�
   const vCardData =
 `BEGIN:VCARD
 VERSION:3.0
+
+N:${name};;;;
 FN:${name}
 ORG:${company}
 TEL;TYPE=CELL:${phone}
