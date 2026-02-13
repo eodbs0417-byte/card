@@ -6,7 +6,7 @@ VERSION:3.0
 
 N:${name};;;;
 FN:${name}
-ORG:${company}
+//ORG:${company}
 TEL;TYPE=CELL:${phone}
 EMAIL:${email}
 END:VCARD`;
