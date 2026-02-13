@@ -4,9 +4,7 @@ function saveContact(name, phone, email = "", company = "한국도로공사서�
 `BEGIN:VCARD
 VERSION:3.0
 
-N:${name};;;;
-FN:${name}
-
+N:한국도로공사서비스;${name};;;;
 TEL;TYPE=CELL:${phone}
 EMAIL:${email}
 END:VCARD`;
